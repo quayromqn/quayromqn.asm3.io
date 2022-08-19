@@ -1,0 +1,69 @@
+@media only screen and (max-width: 767px) {
+  /* BANNER */
+  #banner {
+    height: 40vh;
+  }
+  #banner h1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+  }
+  #banner span {
+    font-size: 10px;
+    font-weight: 200;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    padding-top: 10%;
+  }
+  #banner img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 50% 0;
+  }
+  /* NAV-BAR */
+  #nav-bar {
+    text-align: start;
+  }
+  #nav-bar nav {
+    padding-right: 0;
+    padding-left: 35%;
+    margin: 0;
+  }
+  #nav-bar .div-center {
+    display: none;
+  }
+  .div-a {
+    display: block;
+    padding-left: 50%;
+    padding: 10px 0;
+    border: none;
+  }
+  .div-a2 {
+    padding-right: 10px 0;
+  }
+  /* ABOUT */
+  #about .container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr;
+    padding: 0px;
+  }
+  #personal-info h1,
+  #personal-info ul,
+  #personal-info .icon-about {
+    padding-left: 0;
+  }
+  #target,
+  #personal-info {
+    padding: 10% 2% 5% 5%;
+  }
+  /* JOB INFO */
+}
